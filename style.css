@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+VLG:wght@100..400&family=Ysabeau+SC:wght@1..1000&display=swap');
+
+.ysabeau-sc{
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(97, 180, 232);
+    font-family: "Ysabeau SC", serif;
+}
+
+.foto{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2, ul{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    transition: all 0.6s ease;
+    text-decoration: underline;
+    color: rgb(7, 83, 19);
+    transform: scale(1.2);   
+}
